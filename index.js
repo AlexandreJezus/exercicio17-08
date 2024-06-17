@@ -5,5 +5,11 @@ process.stdin.on("data", function (data) {
   entrada = data.toString().trim();
   if (entrada == usuario.email)
     console.log("Seu email foi encontrado aqui está o seu cadastro. \n");
-  console.log(usuario);
+  console.log(
+    "Seu nome é " +
+      usuario.nome +
+      "e você tem" +
+      usuario.idade +
+      "anos de idade."
+  );
 });
