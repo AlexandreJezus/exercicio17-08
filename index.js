@@ -14,5 +14,5 @@ process.stdin.on("data", function (data) {
         "O seu email cadastrado é " +
         usuario.email
     );
-  } else console.log("O seu email está incorreto ou não foi encontrado.");
+  } else console.log("O seu email está incorreto ou não foi encontrado. Digite novamente.");
 });
